@@ -70,7 +70,7 @@
         <div id="posts-list">
             <div id="post-id" class="post">
                 <img src="https://images.unsplash.com/photo-1710874087896-6683c258deb4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Squirrel Image">
-                <div id="post-title">
+                <div class="post-title">
                     <h1><a href="#">Post Title for a nice post</a></h1>
                 </div>
                 <span>
@@ -84,8 +84,24 @@
                 <hr>
 
             </div>
+            <div id="post-id" class="post">
+                <img src="https://images.unsplash.com/photo-1710874087896-6683c258deb4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Squirrel Image">
+                <div class="post-title">
+                    <h3><a href="#">Post Title for a nice post</a></h3>
+                </div>
+                <span>
+                    <p>Author:</p>
+                    <p>Timestamp</p>
+                </span>
+                <div id="admin-buttons">
+                    <button id="btn">Delete</button>
+                    <button id="btn">Create</button>
+                </div>
+                <hr>
+
+            </div>
         </div>
-        <div id="new-post-div"> 
+        <div id="new-post-div" style="display: none;"> 
             <!--Hide this div and change it in JS to align with roles. If we are not an admin, then this section will not show up-->
         <h2>New Post</h2>
         <form id="new-post-form">
