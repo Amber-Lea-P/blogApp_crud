@@ -15,7 +15,7 @@ const fs = require('fs');
 
 const jwtSecret = process.env.JWT_SECRET
 const app = express();
-const port  = process.env.PORT || 5500;
+const PORT  = process.env.PORT || 5500;
 
 // Favicon
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
