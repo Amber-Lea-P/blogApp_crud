@@ -105,7 +105,7 @@ async function fetchPosts(baseUrl) {
   
     // Ensure that inputs are not empty
     if (!title || !content || !imageUrl) {
-      alert('Please fill in all fields.');
+      alert('Please fill in all fields 1.');
       return;
     }
   
