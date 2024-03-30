@@ -260,7 +260,7 @@ async function registerUser(event, baseUrl) {
       },
       body: JSON.stringify(newUser),
     });
-  
+
     const data = await res.json();
   
     if (data.success) {
