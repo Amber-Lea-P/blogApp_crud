@@ -276,7 +276,7 @@ footer h3 {
   margin: 0;
 }
 
-footer span,
+footer div,
 footer p {
   font-size: 12px;
   display: flex;
