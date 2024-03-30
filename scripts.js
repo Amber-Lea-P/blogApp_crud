@@ -105,7 +105,7 @@ async function fetchPosts(baseUrl) {
   
     // Ensure that inputs are not empty
     if (!title || !content || !imageUrl) {
-      alert('Please fill in all fields 1.');
+      alert('Please fill in all fields.');
       return;
     }
   
@@ -243,7 +243,7 @@ async function registerUser(event, baseUrl) {
   
     // ensure that inputs are not empty
     if (!username || !password || !role) {
-      alert('Please fill in all fields 3.');
+      alert('Please fill in all fields.');
       return;
     }
   
@@ -283,7 +283,7 @@ async function loginUser(event, baseUrl) {
     const password = passwordInput.value;
   
     if (!username || !password) {
-      alert('Please fill in all fields 4.');
+      alert('Please fill in all fields.');
       return;
     }
   
