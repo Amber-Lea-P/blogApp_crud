@@ -40,7 +40,7 @@ const Post = mongoose.model(
   'Post',
   new mongoose.Schema({
     title: String,
-    content: "String",
+    content: String,
     imageUrl: String,
     author: String,
     timestamp: String,
