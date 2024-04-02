@@ -1,7 +1,7 @@
 ![Static Badge](https://img.shields.io/badge/full-Stack-App) <br>
 ![Full_Stack_Blog_App (2)](https://github.com/Amber-Lea-P/blogApp_crud/assets/112793091/d16c5dac-2be8-463c-aaf5-835d3b6f6aa2)
 <br>
-* This is a full stack blog app. The user will be able to upload photos and descriptions to the blog for viewers to see. For this project I uploaded some of my own photos that I have taken from the country side of Finland.
+* This is a full stack blog app. The user will be able to upload photos and descriptions to the blog for viewers to see. For this project I uploaded some of my own photos that I have taken from the forests of Finland.
 * This project includes the following technologies:
   * HTML/CSS
   * Javascript
